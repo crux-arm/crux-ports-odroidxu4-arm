@@ -6,15 +6,28 @@
 
 name=ports
 version=1.5
-release=17
+release=22
 source=(http://crux.nu/files/tools/ports/$name-$version.tar.gz \
+        core.pub opt.pub xorg.pub contrib.pub \
         core.rsync opt.rsync xorg.rsync contrib.rsync.inactive \
-        core-arm.rsync opt-arm.rsync xorg-arm.rsync)
+        odroidxu4-arm.rsync core-arm.rsync opt-arm.rsync xorg-arm.rsync)
 
 build () {
-    cd $name-$version
-    make
-    make DESTDIR=$PKG MANDIR=/usr/share/man install
+  cd $name-$version
+  make
+  make DESTDIR=$PKG MANDIR=/usr/share/man install
 
-    install -m 0644 $SRC/*.rsync* $PKG/etc/ports
+  install -m 0644 $SRC/odroidxu4-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/core.rsync $PKG/etc/ports
+  install -m 0644 $SRC/opt.rsync $PKG/etc/ports
+  install -m 0644 $SRC/xorg.rsync $PKG/etc/ports
+  install -m 0644 $SRC/contrib.rsync.inactive $PKG/etc/ports
+  install -m 0644 $SRC/core.pub $PKG/etc/ports
+  install -m 0644 $SRC/opt.pub $PKG/etc/ports
+  install -m 0644 $SRC/xorg.pub $PKG/etc/ports
+  install -m 0644 $SRC/contrib.pub $PKG/etc/ports
+  install -m 0644 $SRC/core-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/opt-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/xorg-arm.rsync $PKG/etc/ports
+
 }
