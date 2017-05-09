@@ -5,7 +5,7 @@
 # Depends on: libarchive
 
 name=pkgutils
-version=5.40.1
+version=5.40.3
 release=1
 source=(http://crux.nu/files/$name-$version.tar.xz \
         pkgmk.conf.patch)
