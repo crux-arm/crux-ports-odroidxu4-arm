@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/odroidxu4-arm.pub
+RWSPE63IR0DK9DfCmenF8GESpUl9EFSLtUTTq998JqHLxAanOcSvm+AxIdeqdFTArkYSVpq9F96VGLOe++3exP4ilqM17BEPMg0=
+SHA256 (Pkgfile) = 584806ef17a01d25735029be7d615dbcde72f0ae7fd2e3dbe61f02ca403b6477
+SHA256 (.footprint) = e7d863393a07a29b512a2b627a65f731d8896bf0ee75cf430a9b1423716ae437
+SHA256 (pkgutils-5.40.7.tar.xz) = ee9e3e7258983ffabe5959736e8f029c02b0ea1037b2bb588a88daafcda0fafc
+SHA256 (pkgmk.conf.patch) = 91a401d4200041ec4289bd14b32eb10d1779100c39c3ab27142af92100cbfe83
