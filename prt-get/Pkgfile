@@ -5,8 +5,8 @@
 # Depends on:
 
 name=prt-get
-version=5.19.1
-release=1
+version=5.19.5
+release=2
 source=(http://crux.nu/files/prt-get-$version.tar.xz
         prt-get.conf prt-get.aliases)
 
@@ -17,6 +17,6 @@ build() {
   make
   make DESTDIR=$PKG install
 
-  install -m 644 $SRC/prt-get.conf $PKG/etc/
-  install -D -m 644 $SRC/prt-get.aliases $PKG/var/lib/pkg/prt-get.aliases
+  install -m 644 $SRC/prt-get.{conf,aliases} $PKG/etc/
+
 }
