@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/odroidxu4-arm.pub
+RWSPE63IR0DK9Nu19InyP1sst/52KGuZEOfC07Kj/Bu0Mf6amIrarXnrdURHrScdZk0VdT+5RZ/dgwNkSRv+Vny56Zb6WX6kfw0=
+SHA256 (Pkgfile) = 4bb2de7795af10e6a31b44e0df4f009d1f9dfdb1ea64c0c82ee693a13038c26b
+SHA256 (.footprint) = 9a36be18f29307db9bfad99ab7bd2fd07b8342b935406bc89b7bde8f804292b6
+SHA256 (prt-get-5.19.5.tar.xz) = 62ea02fd94eda36fbec45d5ff05fef0dabad159d9478bec1a7ab570f70d0fae3
+SHA256 (prt-get.conf) = d42106e593350ea59c89e69d73fe463eae4a082f2c84de6d59bb46a61d8ea037
+SHA256 (prt-get.aliases) = df473d38e59d1d6cd859d986a5d6586fdc54bfd51663313c63a939e941984b7b
