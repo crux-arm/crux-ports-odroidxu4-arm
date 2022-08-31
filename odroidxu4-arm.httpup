@@ -1,0 +1,8 @@
+#
+# /etc/ports/efikamx-arm.httpup: CRUX-ARM ports overlay for Genesi EfikaMX
+#
+
+ROOT_DIR=/usr/ports/efikamx-arm
+URL=https://raw.githubusercontent.com/crux-arm/crux-ports-efikamx-arm/main/
+
+# End of file
