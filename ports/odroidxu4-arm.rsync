@@ -1,3 +1,0 @@
-host=crux-arm.nu
-collection=ports/crux-3.6/odroidxu4-arm/
-destination=/usr/ports/odroidxu4-arm

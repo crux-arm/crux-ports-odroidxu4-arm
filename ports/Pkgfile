@@ -6,19 +6,19 @@
 
 name=ports
 version=1.6
-release=2
+release=3
 source=(http://crux.nu/files/tools/ports/$name-$version.tar.gz \
         core.pub opt.pub xorg.pub contrib.pub \
         core.rsync opt.rsync xorg.rsync contrib.rsync.inactive \
-        odroidxu4-arm.rsync odroidxu4-arm.pub core-arm.rsync core-arm.pub \
-        opt-arm.rsync opt-arm.pub xorg-arm.rsync xorg-arm.pub)
+        odroidxu4-arm.httpup odroidxu4-arm.pub core-arm.httpup core-arm.pub \
+        opt-arm.httpup opt-arm.pub xorg-arm.httpup xorg-arm.pub)
 
 build () {
   cd $name-$version
   make
   make DESTDIR=$PKG MANDIR=/usr/share/man install
 
-  install -m 0644 $SRC/odroidxu4-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/odroidxu4-arm.httpup $PKG/etc/ports
   install -m 0644 $SRC/odroidxu4-arm.pub $PKG/etc/ports
   install -m 0644 $SRC/core.rsync $PKG/etc/ports
   install -m 0644 $SRC/opt.rsync $PKG/etc/ports
@@ -28,11 +28,11 @@ build () {
   install -m 0644 $SRC/opt.pub $PKG/etc/ports
   install -m 0644 $SRC/xorg.pub $PKG/etc/ports
   install -m 0644 $SRC/contrib.pub $PKG/etc/ports
-  install -m 0644 $SRC/core-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/core-arm.httpup $PKG/etc/ports
   install -m 0644 $SRC/core-arm.pub $PKG/etc/ports
-  install -m 0644 $SRC/opt-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/opt-arm.httpup $PKG/etc/ports
   install -m 0644 $SRC/opt-arm.pub $PKG/etc/ports
-  install -m 0644 $SRC/xorg-arm.rsync $PKG/etc/ports
+  install -m 0644 $SRC/xorg-arm.httpup $PKG/etc/ports
   install -m 0644 $SRC/xorg-arm.pub $PKG/etc/ports
 
 }

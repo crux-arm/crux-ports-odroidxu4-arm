@@ -1,3 +1,0 @@
-host=crux-arm.nu
-collection=ports/crux-3.6/core-arm/
-destination=/usr/ports/core-arm
