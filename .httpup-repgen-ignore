@@ -1,0 +1,7 @@
+README.md
+\.git*
+^odroidxu4\-arm\.httpup
+*~
+\.*~
+*work
+*.pkg.*

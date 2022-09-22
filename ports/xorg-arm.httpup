@@ -1,5 +1,5 @@
 #
-# /etc/ports/xorg-arm.httpup: CRUX-ARM ports overlay for CRUX opt collection
+# /etc/ports/xorg-arm.httpup: CRUX-ARM ports overlay for CRUX xorg collection
 #
 
 ROOT_DIR=/usr/ports/xorg-arm
