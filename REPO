@@ -29,6 +29,6 @@ f:5052d567ccdda3e13e470980d16fe763:ports/.footprint
 f:0d1f1fde50a9bd743d9cac6b235f038c:ports/opt.pub
 f:dedb4cc7af69aad3c3ed095c0e21a1ec:ports/.md5sum
 f:5cce9f5cdfcbc3a68a51b6345f62d5a4:ports/opt-arm.httpup
-f:b96ef8693b4adf0b0953eb59ec41fc8f:ports/.signature
+f:1ee1c4b2862ed06959316eaf6cc61d5b:ports/.signature
 f:093976ed22eb0418721096175b2bd276:ports/xorg-arm.pub
 f:8f012fc6ef8282a5e3356dae5d009947:ports/odroidxu4-arm.pub
