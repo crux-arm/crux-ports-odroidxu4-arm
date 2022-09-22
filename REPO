@@ -22,7 +22,6 @@ f:ee9093b54411528e7a7a57c2cbd53cc8:ports/xorg.rsync
 f:69927e5d0ae5dc3455faeaac916c4db2:ports/xorg.pub
 f:9bc34b2e0aeb6b5975b3a163990e054f:ports/Pkgfile
 f:8cc84b5ed58114c20bf556774a9d4278:ports/core-arm.pub
-f:4981ac68c733ac4b3245f64698fa3f74:ports/odroidxu4-arm.rsync
 f:0dcf25991463d9582b66aca9563dad9d:ports/opt.rsync
 f:a9f83bf0fedfe89317a4cce1c5ccfaad:ports/contrib.rsync.inactive
 f:b8dd0aad383810cad920d6548cd1cb56:ports/core.pub
