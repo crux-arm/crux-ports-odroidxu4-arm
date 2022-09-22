@@ -1,3 +1,7 @@
 README.md
-\.git
-*.httpup
+\.git*
+^odroidxu4\-arm\.httpup
+*~
+\.*~
+*work
+*.pkg.*
