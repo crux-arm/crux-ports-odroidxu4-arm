@@ -4,7 +4,7 @@ CRUX-ARM ports overlay for Odroid XU4
 
 To use these ports, download the `odroidxu4-arm.httpup` file to `/etc/ports`:
 ```
-$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-odroidxu4-arm/main/odroidxu4-arm.httpup
+$ sudo wget -P /etc/ports https://raw.githubusercontent.com/crux-arm/crux-ports-odroidxu4-arm/3.7/odroidxu4-arm.httpup
 $ sudo ports -u odroidxu4-arm
 ```
 
