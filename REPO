@@ -8,10 +8,9 @@ f:4f6b710e4d2b18c70cfe5e4a593938b7:prt-get/prt-get.aliases
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
 f:0c32be971d1305a0fadd8e2b87fe1e73:prt-get/prt-get.conf
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
-f:eee50bcc20855ba711a89cd1ff5f24b1:pkgutils/.md5sum
-f:7395f9be11c997c5786ceb9d6ee32978:pkgutils/.signature
-f:a745121793f1dace8f81c80f498d4c80:pkgutils/Pkgfile
-f:0d3a6fed127ba555ba0c1a587130c6bc:pkgutils/.footprint
+f:2d35d99bfe6b53d9c22ee36e90beb33b:pkgutils/.signature
+f:64347d3b13c1cbc1b082f9cbc0840f8f:pkgutils/Pkgfile
+f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:d32239bcb673463ab874e80d47fae504:COPYING
 f:6664dcbca37a0f92661b81f8529a5d51:ports/core-arm.httpup
 f:0dcf25991463d9582b66aca9563dad9d:ports/opt.rsync
