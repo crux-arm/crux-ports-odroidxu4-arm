@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/odroidxu4-arm.pub
-RWSPE63IR0DK9Nu19InyP1sst/52KGuZEOfC07Kj/Bu0Mf6amIrarXnrdURHrScdZk0VdT+5RZ/dgwNkSRv+Vny56Zb6WX6kfw0=
-SHA256 (Pkgfile) = 4bb2de7795af10e6a31b44e0df4f009d1f9dfdb1ea64c0c82ee693a13038c26b
-SHA256 (.footprint) = 9a36be18f29307db9bfad99ab7bd2fd07b8342b935406bc89b7bde8f804292b6
-SHA256 (prt-get-5.19.5.tar.xz) = 62ea02fd94eda36fbec45d5ff05fef0dabad159d9478bec1a7ab570f70d0fae3
-SHA256 (prt-get.conf) = d42106e593350ea59c89e69d73fe463eae4a082f2c84de6d59bb46a61d8ea037
+RWSPE63IR0DK9I4YdSOJ5gIKdEv3WtD3vjocJt775UW1ya7R7jl8dpSJWU9ReE/EitqkZoAiAVSInJFuG6En4vaj/n9Bv74O3go=
+SHA256 (Pkgfile) = ade6ded9ff960ea4ab6301beb05a102cc78ac9f948bc2e5360724c11b067736f
+SHA256 (.footprint) = 26802764ae3ae1e1a73ea56c859b3415e250a72ea444af410381df8c8f5d3ac8
+SHA256 (prt-get-5.19.6.tar.xz) = 6ea89df308e19a6239f260c91036805cd2063d0cd24a7427235849634dd49f0d
+SHA256 (prt-get.conf) = 4a5aacb1f27ed6fbafdd6543fdf67375969801ca06f09b1c1ddc370d3b72a2cb
 SHA256 (prt-get.aliases) = df473d38e59d1d6cd859d986a5d6586fdc54bfd51663313c63a939e941984b7b
