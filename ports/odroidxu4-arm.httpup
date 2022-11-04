@@ -3,6 +3,6 @@
 #
 
 ROOT_DIR=/usr/ports/odroidxu4-arm
-URL=https://raw.githubusercontent.com/crux-arm/crux-ports-odroidxu4-arm/3.6/
+URL=https://raw.githubusercontent.com/crux-arm/crux-ports-odroidxu4-arm/3.7/
 
 # End of file
