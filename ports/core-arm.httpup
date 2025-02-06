@@ -3,6 +3,6 @@
 #
 
 ROOT_DIR=/usr/ports/core-arm
-URL=https://raw.githubusercontent.com/crux-arm/crux-ports-core-arm/3.7/
+URL=https://raw.githubusercontent.com/crux-arm/crux-ports-core-arm/3.8/
 
 # End of file
