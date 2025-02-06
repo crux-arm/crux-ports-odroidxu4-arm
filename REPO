@@ -5,12 +5,12 @@ f:c36147b0f0b76a918eb3b28039031be1:pkgutils/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:16d89f894a71fe3c8a5793de7cf35de1:pkgutils/Pkgfile
 f:0c32be971d1305a0fadd8e2b87fe1e73:prt-get/prt-get.conf
-f:91269482f08e8ab0e65628f56978e729:prt-get/.signature
+f:691194d0cf92b87d01fc8d3a525e777b:prt-get/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
 f:7f5a9e210bbbc8720188a3fd5d3f4b8b:prt-get/.md5sum
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
-f:4f6b710e4d2b18c70cfe5e4a593938b7:prt-get/prt-get.aliases
+f:13b472f5a9900b768a0e6352aaaeacd7:prt-get/prt-get.aliases
 f:d32239bcb673463ab874e80d47fae504:COPYING
 f:7b496be8827914a5583bee06aec07cbf:ports/xorg-arm.httpup
 f:bceca3aa28a0ee00f14e5634251a8322:ports/core.rsync
