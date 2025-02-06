@@ -1,7 +1,7 @@
 d:pkgutils
 d:prt-get
 d:ports
-f:de1e85b80a881404e13811af1ab5b38d:pkgutils/.signature
+f:c36147b0f0b76a918eb3b28039031be1:pkgutils/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:16d89f894a71fe3c8a5793de7cf35de1:pkgutils/Pkgfile
 f:0c32be971d1305a0fadd8e2b87fe1e73:prt-get/prt-get.conf
