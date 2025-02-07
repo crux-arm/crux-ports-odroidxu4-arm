@@ -18,10 +18,10 @@ jobs:
       # Prepare git log message to avoid extra blank lines
       - name: Set env message
         run: |
-          GITREPO=`git remote show origin -n | grep h.URL | sed 's/Fetch URL: https:\/\/github.com\/crux-arm\///g'`
+          GITREPO=`git remote show origin -n | grep h.URL | sed 's/Fetch URL: https:\/\/github.com\/crux-arm\/crux-ports-//g'`
           GITMSG=`git log -1 --pretty=format:"%s"`
           GITBRANCH=`git branch | grep '*' | sed 's/* //'`
-          echo "MESSAGE=$(echo "[$GITREPO  ] [$GITBRANCH] $GITMSG")" >> $GITHUB_ENV 
+          echo "MESSAGE=$(echo "[$GITREPO/$GITBRANCH  ]: $GITMSG")" >> $GITHUB_ENV 
       
       # Send IRC message by bot
       - name: irc push
@@ -35,13 +35,13 @@ jobs:
 
       - name: Update REPO file
         run: |
-          wget -P /tmp -q https://crux.nu/files/httpup-0.5.1.tar.xz
-          tar -C /tmp -xf /tmp/httpup-0.5.1.tar.xz httpup-0.5.1/httpup-repgen
-          /tmp/httpup-0.5.1/httpup-repgen
+          wget -P /tmp -q https://crux.nu/files/httpup-0.5.0.tar.xz
+          tar -C /tmp -xf /tmp/httpup-0.5.0.tar.xz httpup-0.5.0/httpup-repgen
+          /tmp/httpup-0.5.0/httpup-repgen
           git add REPO
 
       - name: Push to remote
         run: |
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
-          bash -c "git commit -a -m '[auto] Update REPO file' && git push || exit 0" 
+          bash -c "git commit -a -m '[auto] Update REPO file' && git
