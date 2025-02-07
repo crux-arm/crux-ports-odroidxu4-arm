@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/odroidxu4-arm.pub
+RWSPE63IR0DK9IaUtlBnb6PrLEMIctzt2VHZ1zLcWrF9oob2Mk1AwNYrVabq4pDefOv1aNO30epEQz6QkTQI2xqeHrtE5UibYQ0=
+SHA256 (Pkgfile) = 42cbea98fd5812152b00a6db45dfe6ce0f3a77e04c448ec8dcb6af391aa80e5f
+SHA256 (.footprint) = 6467dadee81731d58f91cf62bbc7e42088c630deefaa73ddba259d43fd86604f
+SHA256 (5.4.211-407.tar.gz) = d284537752ceac93f1481bbd1bd6b4985236c714c82581c78fea8bcec04ce662
+SHA256 (config-5.4.211-407) = 78c645caf9287fad528b6e61b29b7b05acc9bd937afe1c326423c0bb7b5c3dee
+SHA256 (boot.ini) = aa579eba64c7db590960008ce3d6def92679008c5e36afffa18f88a207e39482

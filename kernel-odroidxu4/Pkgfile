@@ -1,0 +1,39 @@
+# Description: Linux Kernel binaries for Odroid XU4
+# URL: https://github.com/hardkernel/linux/tree/odroid-5.4.y
+# Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
+# Depends on:
+
+name=kernel-odroidxu4
+version=5.4.211-407
+release=1
+
+source=(https://github.com/hardkernel/linux/archive/refs/tags/$version.tar.gz \
+  config-$version boot.ini)
+
+build() {
+  cd linux-$version
+
+  # use short version number
+  sed 's/EXTRAVERSION =.*/EXTRAVERSION =/' -i Makefile
+
+  # zImage
+  make mrproper
+  cp $SRC/config-$version .config
+  make
+
+  # config
+  install -d -m 0755 $PKG/boot
+  install -m 0644 .config $PKG/boot/config-$version-odroidxu4
+
+  # boot
+  install -m 0644 arch/arm/boot/zImage $PKG/boot/zImage-$version-odroidxu4
+  install -m 0644 arch/arm/boot/dts/exynos5422-odroidxu4.dtb $PKG/boot
+  install -m 0644 arch/arm/boot/dts/overlays/*.dtbo /media/boot/overlays
+  install -m 0644 $SRC/boot.ini $PKG/boot
+
+  # modules and firmware
+  install -d -m 0755 $PKG/lib/{firmware,modules}
+  make modules_install INSTALL_MOD_PATH=$PKG
+  rm -f $PKG/lib/modules/*/{source,build}
+}
+
