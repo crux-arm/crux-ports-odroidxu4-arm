@@ -1,6 +1,12 @@
+d:kernel-odroidxu4
 d:pkgutils
 d:prt-get
 d:ports
+f:2d15e13a7e76947dac3db65642659a42:kernel-odroidxu4/boot.ini
+f:82f6e5a85f5fe6bd10237b783babba9f:kernel-odroidxu4/.signature
+f:8932a66c79de450fa347d70df42a6ae8:kernel-odroidxu4/.footprint
+f:6d0fa61770cc7dbd265d336f8458189d:kernel-odroidxu4/config-5.4.211-407
+f:9439db17d462fe281d296b93dd74db41:kernel-odroidxu4/Pkgfile
 f:c36147b0f0b76a918eb3b28039031be1:pkgutils/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:16d89f894a71fe3c8a5793de7cf35de1:pkgutils/Pkgfile
@@ -8,7 +14,6 @@ f:0c32be971d1305a0fadd8e2b87fe1e73:prt-get/prt-get.conf
 f:691194d0cf92b87d01fc8d3a525e777b:prt-get/.signature
 f:077fea960d8a490412eed744ce9bcc40:prt-get/.footprint
 f:cb96c46c2cf16e2a2f1f13f29f5faab3:prt-get/README
-f:7f5a9e210bbbc8720188a3fd5d3f4b8b:prt-get/.md5sum
 f:fba3b19b1f9ef72c722360b8cfd73c3d:prt-get/Pkgfile
 f:13b472f5a9900b768a0e6352aaaeacd7:prt-get/prt-get.aliases
 f:d32239bcb673463ab874e80d47fae504:COPYING
