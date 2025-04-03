@@ -5,7 +5,7 @@ d:pkgutils
 f:b8dd0aad383810cad920d6548cd1cb56:ports/core.pub
 f:5c94921bee9441abfd6d72869d8e3b69:ports/opt-arm.pub
 f:5052d567ccdda3e13e470980d16fe763:ports/.footprint
-f:364ea4fc9942ad10a77b54dee86149dc:ports/.signature
+f:92e4da61d3fc0a600009f82742a70eff:ports/.signature
 f:0d1f1fde50a9bd743d9cac6b235f038c:ports/opt.pub
 f:804bb419e539a70ad80e4c03df3c3411:ports/contrib.pub
 f:ffcfbdbd1979f51825fa796a6296d1ab:ports/contrib.rsync.inactive
@@ -17,7 +17,7 @@ f:093976ed22eb0418721096175b2bd276:ports/xorg-arm.pub
 f:8f012fc6ef8282a5e3356dae5d009947:ports/odroidxu4-arm.pub
 f:4e4498a2ba771a30257a9d447329bca8:ports/xorg-arm.httpup
 f:939e6f38e938a2ba615e76f40b504c79:ports/xorg.rsync
-f:9bc34b2e0aeb6b5975b3a163990e054f:ports/Pkgfile
+f:18a83ed4a538bcc492126e689efc418a:ports/Pkgfile
 f:9a7ec7bdf5155fbedb02b35e50420cfa:ports/core.rsync
 f:ab5005cb2b4e9d0b783da1d6e59b680b:ports/opt-arm.httpup
 f:8cc84b5ed58114c20bf556774a9d4278:ports/core-arm.pub
