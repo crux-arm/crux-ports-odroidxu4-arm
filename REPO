@@ -35,4 +35,5 @@ f:9439db17d462fe281d296b93dd74db41:kernel-odroidxu4/Pkgfile
 f:82f6e5a85f5fe6bd10237b783babba9f:kernel-odroidxu4/.signature
 f:0e1717fd1eeb62d8fce0c23682e9b337:pkgutils/.footprint
 f:9693592850d40079557552217619265b:pkgutils/Pkgfile
+f:ed5a6831b828ffd19accef409d9d34df:pkgutils/pkgmk.conf
 f:c2cb02549a32973fbe0b1cc49f76a544:pkgutils/.signature
