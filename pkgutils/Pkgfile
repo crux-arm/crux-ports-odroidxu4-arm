@@ -1,5 +1,5 @@
 # Description: A set of utilities to manage software packages 
-# URL: http://crux.nu/gitweb/?p=tools/pkgutils.git
+# URL: https://crux.nu/gitweb/?p=tools/pkgutils.git
 # Maintainer: CRUX System Team, core-ports at crux dot nu
 # Arch Maintainer: CRUX-ARM System Team, devel at crux-arm dot nu
 # Depends on: libarchive
@@ -7,7 +7,7 @@
 name=pkgutils
 version=5.40.11
 release=1
-source=(http://crux.nu/files/$name-$version.tar.xz \
+source=(https://crux.nu/files/$name-$version.tar.xz \
         pkgmk.conf)
 
 build () {
