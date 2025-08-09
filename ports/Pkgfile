@@ -6,17 +6,17 @@
 
 name=ports
 version=1.6
-release=4
+release=5
 source=(http://crux.nu/files/tools/ports/$name-$version.tar.gz \
         core.pub opt.pub xorg.pub contrib.pub \
         core.rsync opt.rsync xorg.rsync contrib.rsync.inactive \
-        odroidxu4-arm.httpup odroidxu4-arm.pub core-arm.httpup core-arm.pub \
-        opt-arm.httpup opt-arm.pub xorg-arm.httpup xorg-arm.pub)
+        odroidxu4-arm.rsync odroidxu4-arm.pub core-arm.rsync core-arm.pub \
+        opt-arm.rsync opt-arm.pub xorg-arm.rsync xorg-arm.pub)
 
 build () {
   cd $name-$version
   make
   make DESTDIR=$PKG MANDIR=/usr/share/man install
 
-  install -m 0644 $SRC/*.{httpup,pub,rsync,inactive} $PKG/etc/ports
+  install -m 0644 $SRC/*.{pub,rsync,inactive} $PKG/etc/ports
 }

@@ -1,0 +1,3 @@
+host=crux.nu
+collection=crux-arm/core-arm/3.8/
+destination=/usr/ports/core-arm

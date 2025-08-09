@@ -1,8 +1,0 @@
-#
-# /etc/ports/odroidxu4-arm.httpup: CRUX-ARM ports overlay for Odroid XU4
-#
-
-ROOT_DIR=/usr/ports/odroidxu4-arm
-URL=https://raw.githubusercontent.com/crux-arm/crux-ports-odroidxu4-arm/3.8/
-
-# End of file
